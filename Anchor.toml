@@ -1,0 +1,12 @@
+[programs.devnet]
+mysolanaapp = "9FrrosjwWBSuGXyLQSAcEUytyuAjSxZe47v3xUEb4XNR"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/flynn/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
